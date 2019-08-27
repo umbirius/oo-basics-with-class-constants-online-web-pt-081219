@@ -9,6 +9,7 @@ class Shoe
     
     BRANDS.each do |brands| 
       if brands == @brand 
+        BRANDS
       else 
         BRANDS << @brand
       end 
