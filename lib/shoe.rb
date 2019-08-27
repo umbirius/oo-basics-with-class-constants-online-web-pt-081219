@@ -11,7 +11,8 @@ class Shoe
       if brands == @brand 
         break 
       else 
-      BRANDS << @brand
+        BRANDS << @brand
+      end 
     end 
   end
 
