@@ -9,7 +9,6 @@ class Shoe
     
     BRANDS.each do |brands| 
       if brands == @brand 
-        break 
       else 
         BRANDS << @brand
       end 
